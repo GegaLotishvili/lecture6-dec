@@ -1,0 +1,48 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+h2 {
+	margin-top: 50px ;
+	font-size: 42px;
+	text-shadow: 36px 19px 3px rgba(206,89,55,0.63);
+}
+
+.big-box {
+	margin-top: 50px;
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+	position: relative;
+	transition: all 3s linear 1s;
+
+	box-shadow: -2px 4px 38px 17px rgba(112,223,230,0.85);
+	-webkit-box-shadow: -2px 4px 38px 17px rgba(112,223,230,0.85);
+	-moz-box-shadow: -2px 4px 38px 17px rgba(112,223,230,0.85);
+}
+
+.big-box:hover {
+	background-color: purple;
+	box-shadow: -2px 4px 38px 17px rgba(230,112,190,0.85);
+	-webkit-box-shadow: -2px 4px 38px 17px rgba(230,112,190,0.85);
+	-moz-box-shadow: -2px 4px 38px 17px rgba(230,112,190,0.85);
+}
+
+
+.small-box {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 1s linear 2s;
+}
+
+.small-box:hover {
+	transform: translate(-50%, -50%) rotate(45deg);
+	background-color: black;
+	transition: all 4s linear;
+}
