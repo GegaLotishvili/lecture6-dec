@@ -46,3 +46,32 @@ h2 {
 	background-color: black;
 	transition: all 4s linear;
 }
+
+/* end of section 1 */
+
+ .s-2 {
+ 	margin: 100px 0 500px;
+ }
+
+.ball {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: relative;
+	border-radius: 100%;
+	animation: mymove 2s infinite 1s linear;
+}
+
+
+@keyframes mymove {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 200px; background: blue;}
+  50%  {top: 200px; left: 200px; background: yellow;}
+  75%  {top: 200px; left: 0px; background: green;}
+  100% {top: 0px; left: 0px; background: red;}
+}
+
+
+
+
+
